@@ -1,6 +1,6 @@
 name: GitHub Apps Report
 description: Fetch all GitHub App installations for a given organization
-author: ChatGPT
+author: Raghavendra Shirashyad
 
 branding:
   icon: package
