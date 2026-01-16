@@ -52,10 +52,6 @@ def fetch_all_apps():
                 "App Name": app["app_slug"],
                 "App ID": app["app_id"],
                 "Target Type": app["target_type"],
-                "Target ID": app["target_id"],
-                "Created At": app["created_at"],
-                "Updated At": app["updated_at"],
-                "HTML URL": app["html_url"]
             })
 
         page += 1
