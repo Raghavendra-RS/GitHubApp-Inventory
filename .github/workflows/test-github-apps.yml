@@ -17,7 +17,7 @@ jobs:
         uses: ./
         with:
           github_token: ${{ secrets.ORG_AUDIT_TOKEN }}
-          org_name: yubi-migration-test
+          org_name: yubi-migration
 
       - name: Upload GitHub Apps report
         uses: actions/upload-artifact@v4
